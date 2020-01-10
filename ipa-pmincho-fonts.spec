@@ -6,7 +6,7 @@
 
 Name:		%{fontname}-fonts
 Version:	003.03
-Release:	4%{?dist}
+Release:	5%{?dist}
 Summary:	Japanese Proportional Mincho-typeface OpenType font by IPA
 
 Group:		User Interface/X
@@ -50,6 +50,9 @@ ln -s	%{_fontconfig_templatedir}/%{fontconf}	\
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 003.03-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 003.03-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
